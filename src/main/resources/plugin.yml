@@ -1,0 +1,12 @@
+name: RagnarokAFKRewards
+version: '${project.version}'
+main: net.ragnaroknetwork.ragnarokdamagefix.RagnarokAFKRewards
+api-version: 1.8.8
+authors: [ Bloedarend ]
+description: Add rewards to non afk players
+commands:
+  ragnarokafkrewards:
+    description: Reload the plugin
+    usage: /ragnarokafkrewards help
+    permission: ragnarokafkrewards.admin
+    aliases: [rar]
